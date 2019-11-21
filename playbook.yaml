@@ -18,4 +18,4 @@
         state: present
         image: thahaest/httpd:5
         published_ports:
-          - 8081:80
+          - "8081:80"
