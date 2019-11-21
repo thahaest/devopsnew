@@ -3,13 +3,13 @@
     - name: install python-docker
       yum:
         name: python-docker
-        statte: present
+        state: present
       when:
         - ansible_distribution == "CentOS"
     - name: install python-docker
       apt:
         name: python-docker
-        statte: present
+        state: present
       when:
         - ansible_distribution == "Ubuntu"
     - name: run container
